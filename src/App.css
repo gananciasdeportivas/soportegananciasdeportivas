@@ -15,17 +15,97 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-bottom: 5vh;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.steps {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.steps p {
+  font-size: medium;
+}
+
+.steps a {
+  font-size: medium;
+  color: white;
+}
+
+.steps li {
+  font-size: medium;
+}
+
+img {
+  width: 20vw;
+  height: 20vh;
+}
+
+.img-exodus-btc {
+  width: 29vw;
+  height: 25vh;
+}
+
+.registerButton {
+  cursor: pointer;
+  border: 0px;
+  color: white;
+  background-color: #fd7e14;
+  border-radius: 40px;
+  width: 8vw;
+  height: 2.5vh;
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 1vw;
+  outline: none;
+  box-shadow: none;
+}
+
+.downloadExodus {
+  cursor: pointer;
+  border: 0px;
+  color: white;
+  background-color: #3714fd;
+  border-radius: 40px;
+  width: 8vw;
+  height: 2vh;
+  font-size: medium;
+  font-weight: bold;
+  outline: none;
+  box-shadow: none;
+  margin-left: 0.2vw;
+  margin-right: 0.2vw;
+}
+
+.youtubeChannel {
+  cursor: pointer;
+  border: 0px;
+  color: white;
+  background-color: #cc0707;
+  border-radius: 40px;
+  width: 7.2vw;
+  height: 2vh;
+  font-size: medium;
+  font-weight: bold;
+  outline: none;
+  box-shadow: none;
+  margin-left: 0.2vw;
+  margin-right: 0.2vw;
+}
+
+iframe {
+  margin-top: 2vh;
 }
 
 @keyframes App-logo-spin {
