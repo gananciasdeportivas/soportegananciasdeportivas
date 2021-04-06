@@ -17,6 +17,11 @@ const Steps = () => {
         const url = 'https://www.youtube.com/channel/UCHx4ByOEpCPkWG-Yvl4mslQ';
         window.open(url, '_blank');
     }
+
+    const openTelegramGroup = () => {
+        const url = 'https://t.me/tutorialgananciasdeportivas';
+        window.open(url, '_blank');
+    }
     return ( 
         <div class="steps">
             <div>
@@ -69,8 +74,9 @@ const Steps = () => {
             </di>
             <di>
                 <h5>Contacto</h5>
-                <p>Si tienes dudas puedes enviar un correo a soporte.ganancia.deportiva@gmail.com</p> 
-                <p>También puedes ingresar al canal de youtube: <button className="youtubeChannel" onClick={openYoutubeChannel} rel="noreferrer">Canal de Youtube</button> </p> 
+                <p>Si tienes dudas puedes enviar un correo a tutorial.ganancias.deportivas@gmail.com</p> 
+                <p>También puedes ingresar al canal de youtube: <button className="youtubeChannel" onClick={openYoutubeChannel} rel="noreferrer">Canal de Youtube</button> </p>
+                <p>O ingresar a este grupo de telegram: <button className="telegramGroup" onClick={openTelegramGroup} rel="noreferrer">Grupo de Telegram</button> </p> 
             </di>
         </div> 
      );
