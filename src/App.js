@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './components/steps'
 import Steps from './components/steps';

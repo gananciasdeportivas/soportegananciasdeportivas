@@ -21,14 +21,14 @@ const Steps = () => {
         <div class="steps">
             <div>
                 <h5>Paso 1: Registrarte en Ganancias Deportivas</h5>
-                <p>Primeramente te deberás registrar dandole click a este botón: <button className="registerButton" onClick={register}>Registrarte</button> </p> 
-                <p>Una vez terminado el registro podrás ingresar a este sitio:  <a href='https://cliente.gdenlinea.net/pages/login' target="_blank">https://cliente.gdenlinea.net/pages/login</a> e iniciar sesión con el nombre de usuario y la contraseña</p>
+                <p>Primeramente te deberás registrar dandole click a este botón: <button className="registerButton" onClick={register} rel="noreferrer">Registrarte</button> </p> 
+                <p>Una vez terminado el registro podrás ingresar a este sitio:  <a href='https://cliente.gdenlinea.net/pages/login' target="_blank" rel="noreferrer">https://cliente.gdenlinea.net/pages/login</a> e iniciar sesión con el nombre de usuario y la contraseña</p>
             </div>
             <di>
                 <h5>Paso 2: Crear una billetera para criptomonedas</h5>
                 <p>Ganancias deportivas realiza los depósitos por medio de la criptomoneda Bitcoin, para ello sera necesario tener una billetera para criptomonedas.</p> 
-                <p>Existen muchas plataformas que permiten la creación de una billetera, pero para propositos de esta guía te voy a recomendar <a href="https://www.exodus.com/" target="_blank"> Exodus </a> por su intuitiva interfaz gráfica</p>
-                <p>Para descargar Exodus puedes ingresar dándole click a este botón <button className="downloadExodus" onClick={downloadExodus}>Descargar Exodus</button> y descargar la aplicacion para computadora y/o celular.</p> 
+                <p>Existen muchas plataformas que permiten la creación de una billetera, pero para propositos de esta guía te voy a recomendar <a href="https://www.exodus.com/" target="_blank" rel="noreferrer"> Exodus </a> por su intuitiva interfaz gráfica</p>
+                <p>Para descargar Exodus puedes ingresar dándole click a este botón <button className="downloadExodus" onClick={downloadExodus} rel="noreferrer">Descargar Exodus</button> y descargar la aplicacion para computadora y/o celular.</p> 
                 <p>Una vez descargada la aplicacion necesitar abrirla y darle en crear una nueva wallet o billetera, ingresar una contraseña segura, anotar las frases para recuperación y listo, ya tienes la wallet lista para enviar y recibir criptomonedas</p>
             </di>
             <di>
@@ -38,7 +38,7 @@ const Steps = () => {
                 <p>Cada compra que se realiza tiene un costo de comision de un 7%, por ejemplo: el centro de negocios cuesta realmente €107 y un paquete de €1000 te costará €1070</p>
                 <p>Sin embargo, Ganancias Deportivas de estara pagando un 20% mensual de lo que inviertas, asi que en un mes ya habrás recuperado ese 7% de comisión, ademas de un 14% en ganancias</p>
                 <p>Las compras dentro de Ganancias Deportivas también se realizan utilizando la criptomoneda Bitcoin, por lo tanto tendrás que comprar Bitcoin en alguna plataforma y utilizar ese Bitcoin para comprar el centro de negocios y los paquetes.</p>
-                <p>Hay varias formas de comprar Bitcoin, puede ser en páginas como:  <a href='https://paybis.com/' target="_blank">Paybis</a>, <a href='https://www.coinbase.com/es/' target="_blank">Coinbase</a>, <a href='https://www.binance.com/es-LA' target="_blank">Binance</a>, <a href='https://paxful.com/es/buy-bitcoin' target="_blank">Paxful</a> y <a href='https://localbitcoins.com/' target="_blank">LocalBitcoins</a></p>
+                <p>Hay varias formas de comprar Bitcoin, puede ser en páginas como:  <a href='https://paybis.com/' target="_blank" rel="noreferrer">Paybis</a>, <a href='https://www.coinbase.com/es/' target="_blank" rel="noreferrer">Coinbase</a>, <a href='https://www.binance.com/es-LA' target="_blank" rel="noreferrer">Binance</a>, <a href='https://paxful.com/es/buy-bitcoin' target="_blank" rel="noreferrer">Paxful</a> y <a href='https://localbitcoins.com/' target="_blank" rel="noreferrer">LocalBitcoins</a></p>
                 <p>A continuación se muestra un video de cómo realizar la compra del centro de negocios y los paquetes en la plataforma: </p>
                 <iframe width="1500" height="500" src="https://www.youtube.com/embed/ILrsqSDGdpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen="allowfullscreen"></iframe>
             </di>
@@ -46,7 +46,7 @@ const Steps = () => {
                 <h5>Paso 3: Vincular la direccion de tu billetera con Ganancias Deportivas</h5>
                 <p>Una vez realizados todos los pasos anterior, necesitarás vincular tu dirección de billetera con tu cuenta de Ganancias Deportivas para que recibas tus ganancias</p>
                 <p>Necesitarás copiar la dirección de bitcoin de tu billetera, en Exodus para obtener la direción deberás darle click en el icono de Bitcoin (BTC) y luego en "Receive" o "Recibir", seguidamente te aparecerá tu dirección y la copias.</p>
-                <img className="img-exodus-btc" src={exodus_btc}></img><img className="img-exodus-btc" src={exodus_btc_receive}></img>
+                <img className="img-exodus-btc" src={exodus_btc} alt="Error"></img><img className="img-exodus-btc" src={exodus_btc_receive} alt="Error"></img>
                 <p>Una vez que tengas tu dirección bitcoin de tu billetera, deberás ir a la plataforma de Ganancias Deportivas y darle click en "Registro de Usuario", luego click en "Asignar cartera de cobros", si no tienes el doble factor de autenticación vas a tener que</p> 
                 <p>configurarlo primero, acontinuación te dejo un video que te ayuda a configurar el doble factor de autenticación: </p> 
                 <iframe width="1500" height="500" src="https://www.youtube.com/embed/Bg8DhD3UU7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen="allowfullscreen"></iframe>
@@ -70,7 +70,7 @@ const Steps = () => {
             <di>
                 <h5>Contacto</h5>
                 <p>Si tienes dudas puedes enviar un correo a soporte.ganancia.deportiva@gmail.com</p> 
-                <p>También puedes ingresar al canal de youtube: <button className="youtubeChannel" onClick={openYoutubeChannel}>Canal de Youtube</button> </p> 
+                <p>También puedes ingresar al canal de youtube: <button className="youtubeChannel" onClick={openYoutubeChannel} rel="noreferrer">Canal de Youtube</button> </p> 
             </di>
         </div> 
      );
